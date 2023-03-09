@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-  <title>Funny jokes!</title>
+  <title>Cool Images!</title>
   <link
     rel="shortcut icon"
     href="{{ url_for('static', filename='dog.png') }}"
@@ -10,9 +10,9 @@
 
 <body>
   <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
-  <h3>Cool images!</h3>
+  <h3>Cool Images!</h3>
   <form action="/" method="post">
-    Draw me an image ... <input type="text" name="description" placeholder="Enter image description" required />
+    Draw me an image about ... <input type="text" name="description" placeholder="Enter image description" required />
     <input type="submit" value="Go" />
   </form>
   {% if result %}
