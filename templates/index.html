@@ -3,13 +3,13 @@
   <title>Cool Images!</title>
   <link
     rel="shortcut icon"
-    href="{{ url_for('static', filename='dog.png') }}"
+    href="{{ url_for('static', filename='starry-night.png') }}"
   />
   <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
 </head>
 
 <body>
-  <img src="{{ url_for('static', filename='dog.png') }}" class="icon" />
+  <img src="{{ url_for('static', filename='starry-night.png') }}" class="icon" />
   <h3>Cool Images!</h3>
   <form action="/" method="post">
     Draw me an image about ... <input type="text" name="description" placeholder="Enter image description" required />
