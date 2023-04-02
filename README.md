@@ -2,6 +2,8 @@
 
 Using OpenAI API to generate images from a description. It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
 
+<img width="507" alt="van_gogh_painting_starry_night" src="https://user-images.githubusercontent.com/7539968/229337939-b2b5714f-29ae-42aa-a58e-be9b2764ef38.png">
+
 ## Setup
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
@@ -41,4 +43,4 @@ Using OpenAI API to generate images from a description. It uses the [Flask](http
    $ flask run -h localhost -p 5002
    ```
 
-You should now be able to access the app at [http://localhost:5002](http://localhost:5002)!
+You should now be able to access the app at [http://localhost:5002](http://localhost:5002)
