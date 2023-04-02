@@ -46,7 +46,7 @@ Description: "Snoopy in a rocket in space"
 
 7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
 
-8. Run the app
+8. Run the app on localhost port 5002 (feel free to change it to another port number)
 
    ```bash
    $ flask run -h localhost -p 5002
