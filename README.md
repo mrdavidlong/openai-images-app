@@ -3,9 +3,9 @@
 Using OpenAI API to generate images from a description. It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
 
 ## Example 1
-<img width="530" alt="van_gogh_is_painting_starry_night" src="https://user-images.githubusercontent.com/7539968/229380194-e53a3cbb-22a9-48d4-93ac-0549aae065d3.png">
+<img width="530" alt="van_gogh_is_painting_starry_night" src="https://user-images.githubusercontent.com/7539968/229382405-22a56ca2-43d0-4ceb-b4ed-3e5c6e9e6b34.png">
 
-Description: "Van Gogh is painting starry night" 
+Description: "Van Gogh is painting starry night"
 
 ## Example 2
 
