@@ -2,11 +2,18 @@
 
 Using OpenAI API to generate images from a description. It uses the [Flask](https://flask.palletsprojects.com/en/2.0.x/) web framework. Check out the tutorial or follow the instructions below to get set up.
 
-<img width="507" alt="van_gogh_painting_starry_night" src="https://user-images.githubusercontent.com/7539968/229337939-b2b5714f-29ae-42aa-a58e-be9b2764ef38.png">
+## Example 1
+<img width="530" alt="van_gogh_is_painting_starry_night" src="https://user-images.githubusercontent.com/7539968/229380194-e53a3cbb-22a9-48d4-93ac-0549aae065d3.png">
 
-<img width="506" alt="snoopy_in_rocket_in_space" src="https://user-images.githubusercontent.com/7539968/229338565-dbea2916-edb3-455d-bbce-17384baaed41.png">
+Description: "Van Gogh is painting starry night" 
 
-## Setup
+## Example 2
+
+<img width="530" alt="snoopy_in_a_rocket_in_space" src="https://user-images.githubusercontent.com/7539968/229380198-73201e89-c014-426c-9403-45e21698b7a2.png">
+
+Description: "Snoopy in a rocket in space"
+
+# Setup
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
 
@@ -47,7 +54,13 @@ Using OpenAI API to generate images from a description. It uses the [Flask](http
 
 You should now be able to access the app at [http://localhost:5002](http://localhost:5002)
 
+## Optional
 In the future, if you want to upgrade your openai version, run this:
    ```bash
    $ pip install --upgrade openai
+   ```
+
+And if you want to update your requirements.txt file, run this:
+   ```bash
+   $ pip freeze > requirements.txt   
    ```
