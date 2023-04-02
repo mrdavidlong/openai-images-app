@@ -46,3 +46,8 @@ Using OpenAI API to generate images from a description. It uses the [Flask](http
    ```
 
 You should now be able to access the app at [http://localhost:5002](http://localhost:5002)
+
+In the future, if you want to upgrade your openai version, run this:
+   ```bash
+   $ pip install --upgrade openai
+   ```
