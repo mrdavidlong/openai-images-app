@@ -4,6 +4,8 @@ Using OpenAI API to generate images from a description. It uses the [Flask](http
 
 <img width="507" alt="van_gogh_painting_starry_night" src="https://user-images.githubusercontent.com/7539968/229337939-b2b5714f-29ae-42aa-a58e-be9b2764ef38.png">
 
+<img width="571" alt="snoopy_in_rocket_in_space" src="https://user-images.githubusercontent.com/7539968/229338341-6413b5e6-8308-48e2-99b1-a8d24a4df279.png">
+
 ## Setup
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
